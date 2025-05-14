@@ -1,0 +1,9 @@
+{
+  "name": "google-signup-actor",
+  "version": "0.1",
+  "buildTag": "latest",
+  "env": {
+    "APIFY_MEMORY_MBYTES": 1024
+  },
+  "main": "main.py"
+}
