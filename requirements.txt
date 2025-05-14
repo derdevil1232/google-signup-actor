@@ -1,0 +1,4 @@
+apify
+selenium
+pytesseract
+pillow
