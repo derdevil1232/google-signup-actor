@@ -1,4 +1,15 @@
 from apify import Actor
+
+async def main():
+    async with Actor:
+        Actor.log.info("Starting the Google signup bot...")
+
+        # Your real logic would go here
+        # For now, just test it with a pause
+        import time
+        time.sleep(5)
+
+        Actor.log.info("Finished the bot run.")
 import time, random, string, pytesseract
 from selenium import webdriver
 from selenium.webdriver.common.by import By
